@@ -10,7 +10,7 @@
   app.use(express.urlencoded({ extended: true }))
 
   io.on('connection', (socket) => {
-      console.log('a user connected')
+      console.log('a user connected aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   })
 
   http.listen(PORT, () => {
